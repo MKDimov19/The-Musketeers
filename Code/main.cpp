@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
-
+struct Node {
+    int data;
+    struct Node* next;
+};
+void printList(Node* node)
+{
+    while (node != NULL)
+    {
+        cout << " " << node->data;
+        node = node->next;
+    }
+}
     void Menu()
     {
         cout << "                                                  HISTORY SEARCHER\n";
@@ -15,3 +26,4 @@ using namespace std;
         cout << endl;
 
     }
+ 
