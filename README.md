@@ -1,5 +1,5 @@
 # Hello, we are team the Musketeers!
-
+<img src="pictures/logo.png" width="400px" height="400px">
 # Contributors
 
 - Maksimiliyan Dimov 10 <sup>A</sup> *<MKDimov19@codingburgas.bg>* - Scrum Trainer
