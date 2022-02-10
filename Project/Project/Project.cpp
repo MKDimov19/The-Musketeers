@@ -57,7 +57,7 @@ Node* showMenu4(Node* head)
 int main()
 {
     Node* head = NULL;
-    int Set[] = { 7,7,7,7,7,7,7 };
+    int Set[] = { 7,7,7,7,7,7 };
     int counter = 1;
     char key;
 
@@ -84,24 +84,20 @@ int main()
 
         gotoxy(10, 16);
         color(Set[4]);
-        cout << "5. Edit an event";
+        cout << "6. Display the current list";
 
         gotoxy(10, 18);
         color(Set[5]);
-        cout << "6. Display the current list";
-
-        gotoxy(10, 20);
-        color(Set[6]);
         cout << "7. Exit";
         cout << endl;
 
         key = _getch();
 
-        if (key == 72 && (counter >= 2 && counter <= 7))
+        if (key == 72 && (counter >= 2 && counter <= 6))
         {
             counter--;
         }
-        if (key == 80 && (counter >= 1 && counter <= 6))
+        if (key == 80 && (counter >= 1 && counter <= 5))
         {
             counter++;
         }
@@ -137,24 +133,20 @@ int main()
             }
             if (counter == 5)
             {
-            }
-            if (counter == 6)
-            {
                 printList(head);
             }
-            if (counter == 7)
+            if (counter == 6)
             {
                 return 0;
             }
         }
-        Set[0] = 7; Set[1] = 7; Set[2] = 7; Set[3] = 7;  Set[4] = 7; Set[5] = 7; Set[6] = 7;
+        Set[0] = 7; Set[1] = 7; Set[2] = 7; Set[3] = 7;  Set[4] = 7; Set[5] = 7;
         if (counter == 1) Set[0] = 12;
         if (counter == 2) Set[1] = 12;
         if (counter == 3) Set[2] = 12;
         if (counter == 4) Set[3] = 12;
         if (counter == 5) Set[4] = 12;
         if (counter == 6) Set[5] = 12;
-        if (counter == 7) Set[6] = 12;
     }
 
 }
