@@ -15,7 +15,7 @@ Node* showMenu1(Node* head)
 	cout << "         Does Bulgaria win the battle? ";
 	string word;
 	cin >> word;
-	if (word == "yes")
+	if (word == "yes" || word == "Yes")
 	{
 		data.isWinForBulgaria = true;
 	}
@@ -38,11 +38,11 @@ Node* showMenu2(Node* head)
 	cout << "         Does Bulgaria win the battle? ";
 	string word;
 	cin >> word;
-	if (word == "yes")
+	if (word == "yes" || word == "Yes")
 	{
 		data.isWinForBulgaria = true;
 	}
-	else
+	else 
 	{
 		data.isWinForBulgaria = false;
 	}
@@ -56,7 +56,6 @@ void showMenu3(Node* head)
 	cout << "         Search for a year or person: ";
 	cin >> element;
 	search(head, element) ? cout << "Yes, it's there." : cout << "No, it's not there.";
-	//Sleep(1000);
 	cout << endl;
 	system("pause");
 }
@@ -100,11 +99,11 @@ int main()
 
 		gotoxy(10, 16);
 		color(Set[4]);
-		cout << "6. Display the current list";
+		cout << "5. Display the current list";
 
 		gotoxy(10, 18);
 		color(Set[5]);
-		cout << "7. Exit";
+		cout << "6. Exit";
 		cout << endl;
 
 		key = _getch();
