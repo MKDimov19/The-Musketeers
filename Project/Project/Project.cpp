@@ -83,15 +83,15 @@ int main()
 
 		gotoxy(10, 8);
 		color(Set[0]);
-		cout << "1. Add a new event in the start of the list";
+		cout << "1. Add a new event at the start of the list";
 
 		gotoxy(10, 10);
 		color(Set[1]);
-		cout << "2. Add a new event in the end of the list";
+		cout << "2. Add a new event at the end of the list";
 
 		gotoxy(10, 12);
 		color(Set[2]);
-		cout << "3. Search for a new event";
+		cout << "3. Search for an event";
 
 		gotoxy(10, 14);
 		color(Set[3]);
