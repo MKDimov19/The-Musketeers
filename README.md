@@ -43,6 +43,6 @@
 
 # Links
 
-* [Presentation]()
-* [Documentation]()
+* [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/mkdimov19_codingburgas_bg/EVUvN50f-_9Dq-eUVGebBAkBbkSRlDg3sAJsplabu6d3SQ?e=kUZkOm)
+* [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/mkdimov19_codingburgas_bg/EfSJaQYjpndPkNaOw__HKloBIe75CPKE42tXBAHGO0YEMQ?e=Pe3JQf)
 
